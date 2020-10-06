@@ -1,1 +1,51 @@
-/* Put your style information here! */
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  background: #FFFFFF;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+li {
+  margin: 0.5em;
+}
+
+.img {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.subheading {
+}
+
+.part {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+
+#questions {
+  margin-top: 0;
+  align-self: center;
+}
+
+.user {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
